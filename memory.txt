@@ -1,0 +1,16 @@
+[Actions & DOM | problème 3] Jeu « memory »
+
+On veut implémenter un jeu de « memory ». Au début du jeu les cartes sont faces cachées, l'interface doit permettre d'en retourner deux. Si les deux cartes sont identiques elles restent visibles, sinon elles disparaissent après un court laps de temps. Le jeu se termine quand toutes les paires ont été découvertes.
+
+    Récupérer huit images de même taille et coder en HTML/CSS la disposition des seize cartes.
+    Programmer en JavaScript le mélange des cartes, par exemple en répétant une centaine de fois le processus suivant : tirer deux cartes au hasard et les échanger.
+    Ce mélange doit avoir lieu au chargement de la page.
+    Utiliser la CSS pour rendre les cartes invisibles.
+    Programmer en JavaScript le retournement d'une carte quand on clique sur elle.
+    (optionnel) Produire un joli effet visuel quand la carte apparaît.
+    Permettre de cliquer sur deux cartes cachées. Tester si les deux images dévoilées sont les mêmes. Si les images sont différentes, les faire disparaître après une seconde d'affichage.
+
+    Interdire le clic sur une image déjà apparente. Interdire le clic sur une troisième carte pendant que les deux cartes cliquées sont apparentes.
+    Compter le nombre de paires découvertes, compter les nombre de clics utilisés.
+    Compléter en produisant des messages en cours de partie (découverte d'une paire, nombre de clics utilisés, message de victoire, etc.).
+    Ajouter deux boutons : l'un qui permet de commencer une nouvelle partie, l'autre qui donne la solution en découvrant toutes les cartes.
